@@ -49,10 +49,6 @@ h6{
 }
 
 
-.outlets{
-    background: #F0C929;
-    color: #fff;
-}
 
 .shop_name{
     font-family: 'Ubuntu', sans-serif;
@@ -108,6 +104,15 @@ h6{
         height: 45em;
         width: 28em;
     }
+
+    .second-container-bottom{
+        margin-top: 9em;
+    }
+    
+    .second-container-img{
+        height: 35em;
+        width: 73%;
+    }
 }
 
 @media (max-width:900px) {
@@ -118,22 +123,59 @@ h6{
         width: 45%;
     }
     
+    .second-container-img{
+        height: 35em;
+        width: 73%;
+    }
+
     .numbers-info{
         text-align: center;
 
     }
+
+    .second-container-bottom{
+        margin-top: 9em;
+    }
+    
 }
 
 
+@media(min-width: 720px) {
+    .second-container{
+        margin-top: -2em;
+
+    }
+}
+  
+
+
 @media(max-width: 600px) {
+    .logo{
+        padding: 0;
+    }
+
+    .catch_phrase{
+        font-size: 3.5em;
+    }
+
     .title_image {
-        position: abso;
         height: 95%;
         width: 75%;
         margin: 5% 12%; 
-
     }
     
+    .second-container{
+        margin-top: 2em;
+    }
+
+    .second-container-bottom{
+        margin-top: 0em;
+    }
+
+    .second-container-img{
+        width: 85%;
+    }
+
     .description_title{
         line-height: 1.5;
     }
@@ -152,7 +194,6 @@ h6{
 /* SECOND CONTAINER */
 
 .second-container{
-     margin-top: -2em;
     background: #222831;
     color: white;
 }
@@ -172,14 +213,17 @@ h6{
 
 /* BOTTOM SECOND CONTAINER */
 
-.second-container-bottom{
+/* .second-container-bottom{
     margin-top: 9em;
-}
+} */
 
 .second-container-img{
-    height: 35em;
+
+   height: 35em;
     width: 73%;
     border: 0.4em solid #E8E1D9;
+    padding: 0%;
+    margin: 0%;
 }
 
 .text-second-container{
